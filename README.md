@@ -39,6 +39,11 @@
 ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
 ![H2](https://img.shields.io/badge/H2-4CAF50?style=for-the-badge&logo=h2t&logoColor=white)
 
+💡 기술적 구현 사항
+- 서버 통신 : Servlet을 통한 통신
+- 환경 변수 설정 : 코드와 설정을 분리
+- 자동 테이블 생성 및 데이터 삽입 : 초기 설정을 위해 서버 실행 시 동작
+
 ## 💻 실행 방법
 
 ### 1. **설치**
@@ -46,6 +51,25 @@
 ```bash
 $ git clone https://github.com/WXXZIN/Board.git
 ```
+
+### 2. **데이터베이스 실행**
+[H2 실행](https://blog.naver.com/jtcjtc/223117129981)
+
+### 3. **.env 작성**
+src/main/resources 경로에 .env 파일 생성
+
+```bash
+jdbc.driver=
+jdbc.url=
+jdbc.username=
+jdbc.password=
+```
+
+### 4. **Tomcat 설정 및 실행**
+Tomcat 9 버전을 사용하여 프로젝트 실행
+
+[Tomcat 다운로드 링크](https://tomcat.apache.org/download-90.cgi)
+
 ## 💁‍♂️ 프로젝트 팀원
 | Backend | Frontend |
 |:---:|:---:|

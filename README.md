@@ -34,7 +34,7 @@
 
 ## 🛠 기술 스택
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JSP](https://img.shields.io/badge/JSP-ED8B00?style=for-the-badge&logo=jsp&logoColor=white)
 ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
 ![H2](https://img.shields.io/badge/H2-4CAF50?style=for-the-badge&logo=h2t&logoColor=white)
